@@ -1,0 +1,61 @@
+* {
+    padding : 0;
+    margin : 0;
+		box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+body {
+  background-color: #333;
+  
+  font-size: 18px;
+	line-height: 1.4;
+  color: #FFF;
+}
+.wrapper {
+	height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  font-size: 46px;
+}
+textarea {
+  vertical-align: top;
+  font-size: 16px;
+}
+textarea:first-child {
+  text-align: right;
+}
+#itog {
+  display: none;
+}
+#questions {
+	display: none;
+}
+#ruWords,
+#engWords {
+	min-height: 500px;
+	height: 100%;
+	min-width: 400px;
+  padding: 5px;
+	resize: horizontal;
+	overflow: hidden;
+}
+#output {
+  margin: 0 auto;
+}
+
+#output td, #output th {
+	min-width: 230px;
+	padding: 15px 5px;
+}
+
+#output td {
+	text-align: right;
+}
+
+#output td:last-child {
+	text-align: left;
+}

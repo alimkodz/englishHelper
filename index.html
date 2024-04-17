@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>English Test</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <h1>English Test</h1>
+    <div id="words">
+      <textarea id="ruWords" wrap="off" placeholder="Введите слова на русском каждую на новую строку">Привет</textarea>
+      <textarea id="engWords" wrap="off" placeholder="Введите слова на английском каждую на новую строку">Hello</textarea>
+      <br>
+      <input type="button" id="startBtn" value="Начать тест">
+    </div>
+    <div id="questions">
+        <p id="word"></p>
+        <input type="text" id="question" placeholder="Перевод на английский">
+        <input type="button" id="nextBtn" value="Далее">
+				<input type="button" value="Говорить" id="speakBtn">
+        <div id="count"></div>
+    </div>
+    <div id="itog">
+      <table id="output">
+          <tr>
+            <th>Неправильно</th>
+            <th>Правильно</th>
+            <th>Перевод</th>
+          </tr>
+    </table>
+      <input type="button" id="home" value="На главную"/>
+      <input type="button" id="restart" value="Начать занаво">
+    </div>
+  </div>
+</body>
+</html>	
+<script type="text/javascript" src="./js/script.js"></script>
